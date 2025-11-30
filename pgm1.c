@@ -27,3 +27,5 @@ int main(int argc, char** argv) {
     MPI_Finalize();
     return 0;
 }
+// mpicc pgm1.c -o pgm1
+// mpirun --oversubscribe --np 6 ./pgm1
